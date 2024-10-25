@@ -1,0 +1,133 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "data_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "data_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "data_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "data_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "data_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "data_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "toggel_out",
+					"strict" : false
+				},
+				{
+					"name" : "clock_50",
+					"strict" : false
+				},
+				{
+					"name" : "vector_a[0]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_b[0]",
+					"strict" : false
+				},
+				{
+					"name" : "key_n[0]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_a[1]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_b[1]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_a[2]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_b[2]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_a[3]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_b[3]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_a[4]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_b[4]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_a[5]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_b[5]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_a[6]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_b[6]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_a[7]",
+					"strict" : false
+				},
+				{
+					"name" : "vector_b[7]",
+					"strict" : false
+				},
+				{
+					"name" : "sw[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sw[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sw[1]",
+					"strict" : false
+				},
+				{
+					"name" : "key_n[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

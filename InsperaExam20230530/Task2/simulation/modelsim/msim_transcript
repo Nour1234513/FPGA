@@ -1,0 +1,60 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do task2_top_level_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/InsperaExam20230530/Task2/task2_top_level.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity task2_top_level
+# -- Compiling architecture rtl of task2_top_level
+# 
+vsim work.task2_top_level
+# vsim work.task2_top_level 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.task2_top_level(rtl)
+add wave -position end  sim:/task2_top_level/clk
+add wave -position end  sim:/task2_top_level/reset
+add wave -position end  sim:/task2_top_level/button_data
+add wave -position end  sim:/task2_top_level/button_pressed_n
+add wave -position end  sim:/task2_top_level/unlock
+add wave -position end  sim:/task2_top_level/led_wrong_code
+add wave -position end  sim:/task2_top_level/led_unlocked
+add wave -position end  sim:/task2_top_level/led_locked
+add wave -position end  sim:/task2_top_level/bit_counter
+add wave -position end  sim:/task2_top_level/empty_code_array
+add wave -position end  sim:/task2_top_level/empty_code_array_full
+add wave -position end  sim:/task2_top_level/led_wrong_code_enable
+add wave -position end  sim:/task2_top_level/led_wrong_code_counter
+do ../../test_tak2.txt
+do ../../test_tak2.txt
+do ../../test_tak2.txt
+do task2_top_level_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/InsperaExam20230530/Task2/task2_top_level.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity task2_top_level
+# -- Compiling architecture rtl of task2_top_level
+# 
+do ../../test_tak2.txt
+# Loading work.task2_top_level(rtl)

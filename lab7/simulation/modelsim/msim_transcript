@@ -1,0 +1,326 @@
+# Reading pref.tcl
+# do lab7_top_level_run_msim_rtl_vhdl.do
+# if ![file isdirectory lab7_top_level_iputf_libs] {
+# 	file mkdir lab7_top_level_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vcom "C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/cycloneV_pll_sim/cycloneV_pll.vho"
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:02:04 on Mar 08,2024
+# vcom -reportprogress 300 C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/cycloneV_pll_sim/cycloneV_pll.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_lnsim_components
+# -- Compiling entity cycloneV_pll
+# -- Compiling architecture RTL of cycloneV_pll
+# End time: 13:02:04 on Mar 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/seven_seg_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:02:04 on Mar 08,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/seven_seg_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package seven_seg_pkg
+# -- Compiling package body seven_seg_pkg
+# -- Loading package seven_seg_pkg
+# End time: 13:02:04 on Mar 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/bcd_decode_rom_rtl.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:02:04 on Mar 08,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/bcd_decode_rom_rtl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bcd_decode_rom
+# -- Compiling architecture rtl of bcd_decode_rom
+# End time: 13:02:04 on Mar 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/serial_uart_rtl.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:02:05 on Mar 08,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/serial_uart_rtl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity serial_uart
+# -- Compiling architecture rtl of serial_uart
+# End time: 13:02:05 on Mar 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/startup_reset.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:02:05 on Mar 08,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/startup_reset.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity startup_reset
+# -- Compiling architecture rtl of startup_reset
+# End time: 13:02:05 on Mar 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/reset_ctrl_rtl.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:02:05 on Mar 08,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/reset_ctrl_rtl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reset_ctrl
+# -- Compiling architecture rtl of reset_ctrl
+# End time: 13:02:05 on Mar 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/key_ctrl.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:02:05 on Mar 08,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/key_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity key_ctrl
+# -- Compiling architecture rtl of key_ctrl
+# End time: 13:02:05 on Mar 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/serial_ctrl.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:02:05 on Mar 08,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/serial_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity serial_ctrl
+# -- Compiling architecture rtl of serial_ctrl
+# End time: 13:02:05 on Mar 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/pwm_ctrl.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:02:05 on Mar 08,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/pwm_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pwm_ctrl
+# -- Compiling architecture rtl of pwm_ctrl
+# End time: 13:02:05 on Mar 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/lab7_top_level.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:02:05 on Mar 08,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/lab7_top_level.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity lab7_top_level
+# -- Compiling architecture rtl of lab7_top_level
+# -- Loading entity startup_reset
+# -- Loading entity reset_ctrl
+# -- Loading entity key_ctrl
+# -- Loading entity serial_ctrl
+# -- Loading entity serial_uart
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity pwm_ctrl
+# ** Error: (vcom-11) Could not find work.c_disp_ctrl.
+# ** Error (suppressible): C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/lab7_top_level.vhd(200): (vcom-1195) Cannot find expanded name "work.c_disp_ctrl".
+# ** Error: C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/lab7_top_level.vhd(200): Unknown expanded name.
+# ** Note: C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/lab7_top_level.vhd(217): VHDL Compiler exiting
+# End time: 13:02:05 on Mar 08,2024, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./lab7_top_level_run_msim_rtl_vhdl.do line 27
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/lab7_top_level.vhd}"
+vcom -reportprogress 300 -work work C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/c_disp_ctrl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:02:14 on Mar 08,2024
+# vcom -reportprogress 300 -work work C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/c_disp_ctrl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity c_disp_ctrl
+# -- Compiling architecture rtl of c_disp_ctrl
+# -- Loading entity bcd_decode_rom
+# End time: 13:02:14 on Mar 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/lab7_top_level.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:02:17 on Mar 08,2024
+# vcom -reportprogress 300 -work work C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/lab7_top_level.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity lab7_top_level
+# -- Compiling architecture rtl of lab7_top_level
+# -- Loading entity startup_reset
+# -- Loading entity reset_ctrl
+# -- Loading entity key_ctrl
+# -- Loading entity serial_ctrl
+# -- Loading entity serial_uart
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity pwm_ctrl
+# -- Loading entity c_disp_ctrl
+# End time: 13:02:18 on Mar 08,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/testbench_pkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:02:20 on Mar 08,2024
+# vcom -reportprogress 300 -work work C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/testbench_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package testbench_pkg
+# -- Compiling package body testbench_pkg
+# -- Loading package testbench_pkg
+# End time: 13:02:20 on Mar 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/testbench_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:02:22 on Mar 08,2024
+# vcom -reportprogress 300 -work work C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab7/testbench_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package testbench_pkg
+# -- Compiling entity testbench_top
+# -- Compiling architecture bhv of testbench_top
+# -- Loading entity lab7_top_level
+# -- Loading entity serial_uart
+# End time: 13:02:22 on Mar 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench_top
+# vsim work.testbench_top 
+# Start time: 13:02:27 on Mar 08,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.testbench_pkg(body)
+# Loading work.testbench_top(bhv)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.lab7_top_level(rtl)
+# Loading work.key_ctrl(rtl)
+# Loading work.serial_ctrl(rtl)
+# Loading work.serial_uart(rtl)
+# Loading work.pwm_ctrl(rtl)
+# Loading work.c_disp_ctrl(rtl)
+# Loading work.bcd_decode_rom(rtl)
+add wave -position end sim:/testbench_top/*
+run -all
+# Simulation starts
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /testbench_top/i_pwm_module/c_disp_ctrl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /testbench_top/i_pwm_module/c_disp_ctrl
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 2  Instance: /testbench_top/i_pwm_module/c_disp_ctrl
+# Test case #0 - Check startup values - expect 0 %
+#       Serial interface reports duty cycle : 0% - OK
+#       Detected PWM output duty cycle : 0% - OK!
+#       Detected 7 segment output duty cycle : 0% - OK!
+#    Test case #0 - PASS.
+# Test case #1 - Key control - ON - expect 100 %
+#       Serial interface reports duty cycle : 100% - OK
+#       Detected PWM output duty cycle : 100% - OK!
+#       Detected 7 segment output duty cycle : 100% - OK!
+#    Test case #1 - PASS.
+# Test case #2 - Key control - OFF - expect 0%
+#       Serial interface reports duty cycle : 0% - OK
+#       Detected PWM output duty cycle : 0% - OK!
+#       Detected 7 segment output duty cycle : 0% - OK!
+#    Test case #2 - PASS.
+# Test case #3 - Key control - UP - should set Duty Cycle to 10%
+#       Serial interface reports duty cycle : 10% - OK
+#       Detected PWM output duty cycle : 10% - OK!
+#       Detected 7 segment output duty cycle : 10% - OK!
+#    Test case #3 - PASS.
+# Test case #4 - Check 1kHz PWM frequency (+/- 1 Hz)
+#       Detected PWM frequency : 1000 Hz
+#    Test case #4 - PASS.
+# Test case #5 - Key hold control - UP 50 ms to ~15 % Duty cycle
+#       Serial interface reports duty cycle : 15% - OK
+#       Detected PWM output duty cycle : 15% - OK!
+#       Detected 7 segment output duty cycle : 15% - OK!
+#    Test case #5 - PASS.
+# Test case #6 - Key control - DOWN 5 ms to decrease Duty cycle with 1 %
+#       Serial interface reports duty cycle : 14% - OK
+#       Detected PWM output duty cycle : 14% - OK!
+#       Detected 7 segment output duty cycle : 14% - OK!
+#    Test case #6 - PASS.
+# Test case #7 - Key hold control - DOWN 70 ms to decrease Duty cycle to minimum (10 %)
+#       Serial interface reports duty cycle : 10% - OK
+#       Detected PWM output duty cycle : 10% - OK!
+#       Detected 7 segment output duty cycle : 10% - OK!
+#    Test case #7 - PASS.
+# Test case #8 - Serial control - Up by sending U in ASCII, expecting 11 %
+#       Serial interface reports duty cycle : 11% - OK
+#       Detected PWM output duty cycle : 11% - OK!
+#       Detected 7 segment output duty cycle : 11% - OK!
+#    Test case #8 - PASS.
+# Test case #9 - Serial control - Up by sending u in ASCII, expecting 12 %
+#       Serial interface reports duty cycle : 12% - OK
+#       Detected PWM output duty cycle : 12% - OK!
+#       Detected 7 segment output duty cycle : 12% - OK!
+#    Test case #9 - PASS.
+# Test case #10 - Serial control - Off by sending 0 in ASCII, expecting 0 %
+#       Serial interface reports duty cycle : 0% - OK
+#       Detected PWM output duty cycle : 0% - OK!
+#       Detected 7 segment output duty cycle : 0% - OK!
+#    Test case #10 - PASS.
+# Test case #11 - Serial control - ON by sending 1 in ASCII, expecting 12 % (remembered)
+#       Serial interface reports duty cycle : 12% - OK
+#       Detected PWM output duty cycle : 12% - OK!
+#       Detected 7 segment output duty cycle : 12% - OK!
+#    Test case #11 - PASS.
+# Test case #12 - Serial control - DOWN by sending d in ASCII, expecting 11 %
+#       Serial interface reports duty cycle : 11% - OK
+#       Detected PWM output duty cycle : 11% - OK!
+#       Detected 7 segment output duty cycle : 11% - OK!
+#    Test case #12 - PASS.
+# Test case #13 - Serial control - DOWN by sending D in ASCII, expecting 10 %
+#       Serial interface reports duty cycle : 10% - OK
+#       Detected PWM output duty cycle : 10% - OK!
+#       Detected 7 segment output duty cycle : 10% - OK!
+#    Test case #13 - PASS.
+# Test case #14 - Serial control - DOWN by sending D in ASCII, expecting 10 %
+#       Serial interface reports duty cycle : 10% - OK
+#       Detected PWM output duty cycle : 10% - OK!
+#       Detected 7 segment output duty cycle : 10% - OK!
+#    Test case #14 - PASS.
+# Simulation ends
+# End time: 13:29:26 on Mar 08,2024, Elapsed time: 0:26:59
+# Errors: 0, Warnings: 3

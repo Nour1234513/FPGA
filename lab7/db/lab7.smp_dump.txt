@@ -1,0 +1,24 @@
+
+State Machine - |lab7_top_level|pwm_ctrl:pwm|pwm_state
+Name pwm_state.pwm_refresh_dc pwm_state.pwm_on pwm_state.pwm_down pwm_state.pwm_up pwm_state.pwm_off pwm_state.pwm_idel 
+pwm_state.pwm_idel 0 0 0 0 0 0 
+pwm_state.pwm_off 0 0 0 0 1 1 
+pwm_state.pwm_up 0 0 0 1 0 1 
+pwm_state.pwm_down 0 0 1 0 0 1 
+pwm_state.pwm_on 0 1 0 0 0 1 
+pwm_state.pwm_refresh_dc 1 0 0 0 0 1 
+
+State Machine - |lab7_top_level|serial_uart:uart|tx_state
+Name tx_state.s_stop_bit tx_state.s_parity tx_state.s_tx_data tx_state.s_start_bit tx_state.s_idle 
+tx_state.s_idle 0 0 0 0 0 
+tx_state.s_start_bit 0 0 0 1 1 
+tx_state.s_tx_data 0 0 1 0 1 
+tx_state.s_parity 0 1 0 0 1 
+tx_state.s_stop_bit 1 0 0 0 1 
+
+State Machine - |lab7_top_level|serial_uart:uart|rx_state
+Name rx_state.s_stop_bit rx_state.s_parity rx_state.s_rx_data rx_state.s_idle 
+rx_state.s_idle 0 0 0 0 
+rx_state.s_rx_data 0 0 1 1 
+rx_state.s_parity 0 1 0 1 
+rx_state.s_stop_bit 1 0 0 1 

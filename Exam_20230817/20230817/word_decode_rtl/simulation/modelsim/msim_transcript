@@ -1,0 +1,77 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do top_level_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/Exam_20230817/20230817/word_decode_rtl/word_decode_rtl.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity word_decode
+# -- Compiling architecture rtl of word_decode
+# 
+vsim work.word_decode
+# vsim work.word_decode 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.word_decode(rtl)
+add wave -position end  sim:/word_decode/clk
+add wave -position end  sim:/word_decode/reset
+add wave -position end  sim:/word_decode/received_data
+add wave -position end  sim:/word_decode/received_data_valid
+add wave -position end  sim:/word_decode/status_output
+add wave -position end  sim:/word_decode/pulse_output
+add wave -position end  sim:/word_decode/saved_data
+add wave -position end  sim:/word_decode/counter
+add wave -position end  sim:/word_decode/start_pulse
+add wave -position end  sim:/word_decode/pulse_counter
+add wave -position end  sim:/word_decode/reset_ram
+do ../../test_tenta.txt
+do ../../test_tenta.txt
+do ../../test_tenta.txt
+# ** Fatal: (vsim-3421) Value 5 for counter is out of range 0 to 4.
+#    Time: 520001 ps  Iteration: 0  Process: /word_decode/p_main File: C:/Users/nourn/OneDrive/Skrivbord/VHDL/Exam_20230817/20230817/word_decode_rtl/word_decode_rtl.vhd
+# Fatal error in Process p_main at C:/Users/nourn/OneDrive/Skrivbord/VHDL/Exam_20230817/20230817/word_decode_rtl/word_decode_rtl.vhd line 35
+# 
+# HDL call sequence:
+# Stopped at C:/Users/nourn/OneDrive/Skrivbord/VHDL/Exam_20230817/20230817/word_decode_rtl/word_decode_rtl.vhd 35 Process p_main
+# 
+# ** Error: (vish-4008) Object 'received_data' not found.
+# Error in macro ./../../test_tenta.txt line 119
+# ** Error: (vish-4008) Object 'received_data' not found.
+# 
+#     while executing
+# "force received_data x"00""
+vcom -reportprogress 300 -work work C:/Users/nourn/OneDrive/Skrivbord/VHDL/Exam_20230817/20230817/word_decode_rtl/word_decode_rtl.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity word_decode
+# -- Compiling architecture rtl of word_decode
+do ../../test_tenta.txt
+# Loading work.word_decode(rtl)
+vcom -reportprogress 300 -work work C:/Users/nourn/OneDrive/Skrivbord/VHDL/Exam_20230817/20230817/word_decode_rtl/word_decode_rtl.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity word_decode
+# -- Compiling architecture rtl of word_decode
+do ../../test_tenta.txt
+# Loading work.word_decode(rtl)
+do ../../test_tenta.txt
+do ../../test_tenta.txt

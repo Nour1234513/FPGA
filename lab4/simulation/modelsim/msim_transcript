@@ -1,0 +1,185 @@
+# Reading pref.tcl
+# do top_level_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/nourn/Desktop/VHDL/lab4/top_level.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:49:22 on Jan 30,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/nourn/Desktop/VHDL/lab4/top_level.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_level
+# -- Compiling architecture rtl of top_level
+# End time: 12:49:22 on Jan 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.top_level
+# vsim work.top_level 
+# Start time: 12:50:04 on Jan 30,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.top_level(rtl)
+add wave -position end sim:/top_level/*
+do ../../test4.do.txt
+vcom -reportprogress 300 -work work C:/Users/nourn/Desktop/VHDL/lab4/top_level.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:56:36 on Jan 30,2024
+# vcom -reportprogress 300 -work work C:/Users/nourn/Desktop/VHDL/lab4/top_level.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_level
+# -- Compiling architecture rtl of top_level
+# End time: 12:56:36 on Jan 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do ../../test4.do.txt
+# Loading work.top_level(rtl)
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+do ../../test4.do.txt
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+do ../../test4.do.txt
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+do ../../test4.do.txt
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+do ../../test4.do.txt
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+do ../../test4.do.txt
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+do ../../test4.do.txt
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+vcom -reportprogress 300 -work work C:/Users/nourn/Desktop/VHDL/lab4/top_level.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:05:05 on Jan 30,2024
+# vcom -reportprogress 300 -work work C:/Users/nourn/Desktop/VHDL/lab4/top_level.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_level
+# -- Compiling architecture rtl of top_level
+# End time: 13:05:05 on Jan 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do ../../test4.do.txt
+# Loading work.top_level(rtl)
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+vcom -reportprogress 300 -work work C:/Users/nourn/Desktop/VHDL/lab4/top_level.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:06:34 on Jan 30,2024
+# vcom -reportprogress 300 -work work C:/Users/nourn/Desktop/VHDL/lab4/top_level.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_level
+# -- Compiling architecture rtl of top_level
+# End time: 13:06:34 on Jan 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do ../../test4.do.txt
+# Loading work.top_level(rtl)
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+do ../../test4.do.txt
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+do ../../test4.do.txt
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+vcom -reportprogress 300 -work work C:/Users/nourn/Desktop/VHDL/lab4/top_level.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:11:29 on Jan 30,2024
+# vcom -reportprogress 300 -work work C:/Users/nourn/Desktop/VHDL/lab4/top_level.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_level
+# -- Compiling architecture rtl of top_level
+# End time: 13:11:29 on Jan 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do ../../test4.do.txt
+# Loading work.top_level(rtl)
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+vcom -reportprogress 300 -work work C:/Users/nourn/Desktop/VHDL/lab4/top_level.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:19:37 on Jan 30,2024
+# vcom -reportprogress 300 -work work C:/Users/nourn/Desktop/VHDL/lab4/top_level.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_level
+# -- Compiling architecture rtl of top_level
+# End time: 13:19:37 on Jan 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do ../../test4.do.txt
+# Loading work.top_level(rtl)
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+vcom -reportprogress 300 -work work C:/Users/nourn/Desktop/VHDL/lab4/top_level.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:27:12 on Jan 30,2024
+# vcom -reportprogress 300 -work work C:/Users/nourn/Desktop/VHDL/lab4/top_level.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_level
+# -- Compiling architecture rtl of top_level
+# End time: 13:27:12 on Jan 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/nourn/Desktop/VHDL/lab4/top_level.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:27:20 on Jan 30,2024
+# vcom -reportprogress 300 -work work C:/Users/nourn/Desktop/VHDL/lab4/top_level.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_level
+# -- Compiling architecture rtl of top_level
+# End time: 13:27:20 on Jan 30,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do ../../test4.do.txt
+# Loading work.top_level(rtl)
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+add wave -position 12  sim:/top_level/cheat_n_r
+add wave -position 13  sim:/top_level/cheat_n_r2
+# End time: 13:59:13 on Jan 30,2024, Elapsed time: 1:09:09
+# Errors: 0, Warnings: 0

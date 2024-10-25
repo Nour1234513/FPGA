@@ -1,0 +1,28 @@
+library ieee; 
+	use ieee.std_logic_1164.all;
+	
+entity of tenta2020_top_level is 
+port (
+	in_a 	: in std_logic;
+	in_b 	: in std_logic;
+	
+	clk	: in std_logic;
+	reset_n : in std_logic;
+	
+	input_v2 	: in std_logic_vector (15 downto 0 );
+	input_v1 	: in std_logic_vector (15 downto 0 );
+	
+	input_valid : in std_logic;
+	out_q 		: out std_logic;
+	input_values_not_equal 	: out std_logic;
+	input_values_equal 	: out std_logic;
+
+);
+
+architecture rtl of tenta2020_top_level is 
+	signal in_b_r : std_logic;
+	signal in_b_2r : std_logic;
+	signal out_q : std_logic;
+begin 
+	
+end architecture rtl;

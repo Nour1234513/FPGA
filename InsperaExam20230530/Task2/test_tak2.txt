@@ -1,0 +1,107 @@
+restart -f 
+
+force clk 0 0, 1 5 ns -r 10 ns
+force button_data 16#0
+force button_pressed_n 1
+force reset 1 
+
+run 100 ns 
+
+force reset 0 
+
+run 100 ns 
+
+#############################
+force button_data 16#1
+force button_pressed_n 0
+
+run 10 ns 
+force button_pressed_n 1 
+run 100 ns 
+
+#################################
+force button_data 16#2
+force button_pressed_n 0
+
+run 10 ns 
+force button_pressed_n 1 
+run 100 ns
+################################
+
+
+force button_data 16#3
+force button_pressed_n 0
+
+run 10 ns 
+force button_pressed_n 1 
+run 100 ns
+#############################
+
+
+force button_data 16#4
+force button_pressed_n 0
+
+run 10 ns 
+force button_pressed_n 1 
+run 100 ns
+#############################
+
+force reset 1 
+run 100 ns 
+
+force reset 0 
+run 10 ns 
+
+#############################
+force button_data 16#1
+force button_pressed_n 0
+
+run 10 ns 
+force button_pressed_n 1 
+run 100 ns 
+
+#################################
+force button_data 16#2
+force button_pressed_n 0
+
+run 10 ns 
+force button_pressed_n 1 
+run 100 ns
+################################
+
+
+force button_data 16#3
+force button_pressed_n 0
+
+run 10 ns 
+force button_pressed_n 1 
+run 100 ns
+#############################
+
+
+force button_data 16#5
+force button_pressed_n 0
+
+run 10 ns 
+force button_pressed_n 1 
+run 5 ms
+run 10 ns
+#############################
+
+force button_data 16#3
+force button_pressed_n 0
+
+run 10 ns 
+force button_pressed_n 1 
+run 100 ns
+#############################
+
+
+
+
+
+
+
+
+
+

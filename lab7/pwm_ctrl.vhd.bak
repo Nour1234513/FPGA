@@ -1,0 +1,18 @@
+library	ieee;
+	use ieee.std_logic_1164.all;
+	
+entity pwm_ctrl is 
+port (
+	clk 					: in std_logic;
+	key_n 				: in std_logic_vector(3 downto 0);
+	key_on 				: out std_logic;
+	key_off 				: out std_logic;
+	key_up 				: out std_logic;
+	key_down 			: out std_logic
+);
+end entity pwm_ctrl;
+
+architecture rtl of pwm_ctrl is 
+begin 
+	
+end architecture rtl;

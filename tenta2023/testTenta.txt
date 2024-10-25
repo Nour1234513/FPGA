@@ -1,0 +1,27 @@
+restart -f
+force clock_50 0 0, 1 10  ns -r 20 ns
+force sw "000" 
+force key_n "00"
+force vector_a "00000000"
+force vector_b "00000000"
+force reset_n 0 
+
+run 100 us 
+
+force reset_n 1 
+run 100 us
+
+force vector_a "11111111"
+force sel_a 1
+force sel_b 1
+force sel_c 0
+ 
+run 100 us 
+
+force reset_n 0 
+force vector_a "11110000"
+run 100 us 
+
+force reset_n 1
+
+run 100 us

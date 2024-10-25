@@ -1,0 +1,28 @@
+|lab2_2
+sw[0] => LessThan0.IN4
+sw[0] => LessThan1.IN4
+sw[1] => LessThan0.IN3
+sw[1] => LessThan1.IN3
+sw[2] => LessThan0.IN2
+sw[2] => LessThan1.IN2
+sw[3] => LessThan0.IN1
+sw[3] => LessThan1.IN1
+sw[4] => LessThan0.IN8
+sw[4] => LessThan1.IN8
+sw[5] => LessThan0.IN7
+sw[5] => LessThan1.IN7
+sw[6] => LessThan0.IN6
+sw[6] => LessThan1.IN6
+sw[7] => LessThan0.IN5
+sw[7] => LessThan1.IN5
+led1[0] <= led1[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led1[1] <= led1[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led1[2] <= led1[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+key_n[0] => led1[0]~reg0.CLK
+key_n[0] => led1[1]~reg0.CLK
+key_n[0] => led1[2]~reg0.CLK
+key_n[1] => led1[0]~reg0.ACLR
+key_n[1] => led1[1]~reg0.ACLR
+key_n[1] => led1[2]~reg0.ACLR
+
+

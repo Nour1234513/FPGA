@@ -1,0 +1,28 @@
+library ieee;
+	use ieee.std_logic_1164.all;
+	
+entity task2_top_level is 
+port (
+	clk 						: in std_logic;
+	reset						: in std_logic;
+	button_data 			: in std_logic_vector(3 downto 0);
+	button_pressed_n 		: in std_logic;
+	
+	unlock					: out std_logic;
+	led_wrong_code 		: out std_logic;
+	led_unlocked			: out std_logic;
+	led_locked				: out std_logic
+);
+
+end entity task2_top_level;
+
+architecture rtl of task2_top_level is 
+	constant orginal_code is array (3 downto 0) of std_logic_vector(3 downto 0):=(0x1,0x2,0x3,0x4);
+begin 
+	p_main : process(clk , reset)
+	begin 
+		if rising_edge(clk) then 
+			
+		end if;
+	end process p_main;
+end architecture rtl;

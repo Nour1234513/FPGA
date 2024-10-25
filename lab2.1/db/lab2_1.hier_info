@@ -1,0 +1,12 @@
+|lab2_1
+sw[0] => Mux0.IN3
+sw[1] => Mux0.IN2
+sw[2] => Mux0.IN1
+sw[3] => Mux0.IN0
+sw[4] => Mux0.IN5
+sw[5] => Mux0.IN4
+led1 <= led1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+key_n[0] => led1~reg0.CLK
+key_n[1] => led1~reg0.ACLR
+
+

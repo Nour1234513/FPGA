@@ -1,0 +1,20 @@
+library ieee;
+	use ieee.std_logic_1164.all;
+	use ieee.numeric_std.all;
+entity lab2_0 is 
+port(
+	sw : in std_logic_vector(5 downto 0);
+	led : out std_logic_vector(3 downto 0);
+	key_n : in std_logic_vector(1 downto 0); 
+);
+end entity lab2_0;
+
+architecture rtl of lab2_0 is 
+	signal clk : std_logic;
+	signal reset : std_logic;
+	signal value1 : signed (3 downto 0);
+	signal value2 : signed (3 downto 0 );
+	
+	begin
+	led <= value1 + value2;
+	end architecture rtl;

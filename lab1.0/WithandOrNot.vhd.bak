@@ -1,0 +1,21 @@
+library ieee;
+	use ieee.std_logic_1164.all;
+	use ieee.numeric_std.all;
+	
+entity withandOrNot is 
+port(
+	sw : in std_logic_vector(7 downto 0);
+	ledr0 : out std_logic
+);
+end entity withandOrNot;
+architecture rtl of withandOrNot is
+begin
+ledr0 <= sw0 
+	or (sw0 and sw1) 
+	or ( sw0 and sw1 and sw2)
+	or (sw1 and sw2 and sw3)
+	or (sw2 and sw3 and sw4)
+	or (sw3 and sw4 and sw5)
+	or (sw4 and sw5 and sw6)
+	or (sw5 and sw6 and sw7)
+end architecture rtl;

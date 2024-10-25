@@ -1,0 +1,11 @@
+
+State Machine - |top_level|s_segg
+Name s_segg.s_cheat s_segg.s_6 s_segg.s_5 s_segg.s_4 s_segg.s_3 s_segg.s_2 s_segg.s_1 s_segg.s_waiting 
+s_segg.s_waiting 0 0 0 0 0 0 0 0 
+s_segg.s_1 0 0 0 0 0 0 1 1 
+s_segg.s_2 0 0 0 0 0 1 0 1 
+s_segg.s_3 0 0 0 0 1 0 0 1 
+s_segg.s_4 0 0 0 1 0 0 0 1 
+s_segg.s_5 0 0 1 0 0 0 0 1 
+s_segg.s_6 0 1 0 0 0 0 0 1 
+s_segg.s_cheat 1 0 0 0 0 0 0 1 

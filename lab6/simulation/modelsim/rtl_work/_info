@@ -1,0 +1,183 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/nourn/OneDrive/Skrivbord/VHDL/lab6/simulation/modelsim
+Ebcd_decode_rom
+Z1 w1709028159
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z5 8C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab6/bcd_decode_rom_rtl.vhd
+Z6 FC:/Users/nourn/OneDrive/Skrivbord/VHDL/lab6/bcd_decode_rom_rtl.vhd
+l0
+L16 1
+VIUl;IjR5N7B<_J7:iIHo<0
+!s100 3YZh?XNEk2j4AjUMMzO5<3
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1709029777
+!i10b 1
+Z9 !s108 1709029776.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab6/bcd_decode_rom_rtl.vhd|
+Z11 !s107 C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab6/bcd_decode_rom_rtl.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+Z14 DEx4 work 14 bcd_decode_rom 0 22 IUl;IjR5N7B<_J7:iIHo<0
+!i122 1
+l84
+L33 76
+VI<LOmEinjPaR8;fl0zZeF2
+!s100 OS^IA4STO[kFz`KRMCQA01
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Edebug
+Z15 w1709029126
+R3
+R4
+!i122 2
+R0
+Z16 8C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab6/debug.vhd
+Z17 FC:/Users/nourn/OneDrive/Skrivbord/VHDL/lab6/debug.vhd
+l0
+L4 1
+V3Y1Rh`YBHo@UfFW@eJRWa3
+!s100 QWaMiMhX=fRagN:74GCm>1
+R7
+31
+R8
+!i10b 1
+Z18 !s108 1709029777.000000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab6/debug.vhd|
+Z20 !s107 C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab6/debug.vhd|
+!i113 1
+R12
+R13
+Artl
+R3
+R4
+Z21 DEx4 work 5 debug 0 22 3Y1Rh`YBHo@UfFW@eJRWa3
+!i122 2
+l22
+L17 30
+Vg[;LfDgVnjG5LbM95Amf30
+!s100 Ce0Yk@XDN`;9az=1ZDjIl0
+R7
+31
+R8
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Elab6_top_level
+Z22 w1709029590
+R3
+R4
+!i122 3
+R0
+Z23 8C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab6/lab6_top_level.vhd
+Z24 FC:/Users/nourn/OneDrive/Skrivbord/VHDL/lab6/lab6_top_level.vhd
+l0
+L7 1
+V?<dO>jVXGLH6c]Sg>B:>X0
+!s100 Y^>QaiWK@g308P5IWzJ^A2
+R7
+31
+R8
+!i10b 1
+R18
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab6/lab6_top_level.vhd|
+!s107 C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab6/lab6_top_level.vhd|
+!i113 1
+R12
+R13
+Artl
+R21
+R14
+R2
+Z26 DEx4 work 11 serial_uart 0 22 FLa]0;GDFfnP4Y>^oWz]b3
+R3
+R4
+DEx4 work 14 lab6_top_level 0 22 ?<dO>jVXGLH6c]Sg>B:>X0
+!i122 3
+l28
+L18 68
+VYUJ9NH=MO@6eKXKOc[LGh0
+!s100 @M:[MF;Y5::OI<8Lo28``3
+R7
+31
+R8
+!i10b 1
+R18
+R25
+Z27 !s107 C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab6/lab6_top_level.vhd|
+!i113 1
+R12
+R13
+Eserial_uart
+Z28 w1707481909
+R2
+R3
+R4
+!i122 0
+R0
+Z29 8C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab6/serial_uart_rtl.vhd
+Z30 FC:/Users/nourn/OneDrive/Skrivbord/VHDL/lab6/serial_uart_rtl.vhd
+l0
+L22 1
+VFLa]0;GDFfnP4Y>^oWz]b3
+!s100 4BYkGeEh[2G2jM9O?P<jA2
+R7
+31
+Z31 !s110 1709029776
+!i10b 1
+R9
+Z32 !s90 -reportprogress|300|-93|-work|work|C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab6/serial_uart_rtl.vhd|
+Z33 !s107 C:/Users/nourn/OneDrive/Skrivbord/VHDL/lab6/serial_uart_rtl.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+R26
+!i122 0
+l96
+L47 320
+V:F>DfE:o[?KS3h=kB>O[40
+!s100 _:6]8?V;GSE;NT3Fd18Pl1
+R7
+31
+R31
+!i10b 1
+R9
+R32
+R33
+!i113 1
+R12
+R13

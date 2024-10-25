@@ -1,0 +1,12 @@
+#Define all inputs, reset active
+force sw 00001111
+force sw(0) 0
+force sw(1) 0
+force sw(2) 0 
+force sw(3) 1
+force sw(4) 1 
+force sw(5) 1  
+force clk 0
+
+force clk 1
+run 100 ns

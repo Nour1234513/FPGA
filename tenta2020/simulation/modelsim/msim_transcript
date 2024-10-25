@@ -1,0 +1,53 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do tenta2020_top_level_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/tenta2020/tenta2020_top_level.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tenta2020_top_level
+# -- Compiling architecture rtl of tenta2020_top_level
+# 
+vcom -reportprogress 300 -work work C:/Users/nourn/OneDrive/Skrivbord/VHDL/tenta2020/data_sample.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity data_sample
+# -- Compiling architecture rtl of data_sample
+vsim work.data_sample
+# vsim work.data_sample 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.data_sample(rtl)
+add wave -position end  sim:/data_sample/do_sample
+add wave -position end  sim:/data_sample/data
+add wave -position end  sim:/data_sample/clk
+add wave -position end  sim:/data_sample/reset_n
+add wave -position end  sim:/data_sample/busy
+add wave -position end  sim:/data_sample/sampled_data
+add wave -position end  sim:/data_sample/sampled_data_valid
+add wave -position end  sim:/data_sample/start_counting
+add wave -position end  sim:/data_sample/counter_done
+add wave -position end  sim:/data_sample/in_busy
+do ../../test_sample.txt
+vcom -reportprogress 300 -work work C:/Users/nourn/OneDrive/Skrivbord/VHDL/tenta2020/data_sample.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity data_sample
+# -- Compiling architecture rtl of data_sample
+do ../../test_sample.txt
+# Loading work.data_sample(rtl)

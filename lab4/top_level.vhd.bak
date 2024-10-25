@@ -1,0 +1,39 @@
+library ieee;
+	use ieee.std_logic_1164.all;
+	use ieee.numeric_std.all;
+
+entity top_level is
+	port(
+		clock_50 : in std_logic; -- 50 MHz clock
+		sw : in std_logic_vector(9 downto 0);
+		key_n : in std_logic_vector(3 downto 0);
+		ledr : out std_logic_vector(9 downto 0);
+		HEX0 : out std_logic_vector (5 downto 0)
+);
+end entity top_level;
+
+architecture rtl of top_level is
+
+-- Constant and type declarations
+	constant c_500ms_count_max : integer := <value here>;
+	
+-- Internal signal declarations
+	signal reset_n : std_logic;
+	signal button_n : std_logic;
+ 	signal clk : std_logic;
+	signal segg : std_logic_vector;
+	
+	
+begin
+	
+	reset_n 			<= key_n(0);
+	clk 				<= clock_50;
+	ledr 				<= (others => '0');-- USE ONE OF THESE FOR THE TOGGLE LED
+	segg 				<= HEX0;
+	
+	p_main : process(clk, reset_n)
+	begin
+		-- fill in tick process functionality here
+		
+	end process p_main;
+end architecture rtl;

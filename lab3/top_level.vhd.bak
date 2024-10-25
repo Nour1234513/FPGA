@@ -1,0 +1,52 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity top_level is
+port(
+	clock_50 : in std_logic; -- 50 MHz clock
+	sw : in std_logic_vector(9 downto 0);
+	key_n : in std_logic_vector(3 downto 0);
+	ledr : out std_logic_vector(9 downto 0);
+	ledg : out std_logic_vector(7 downto 0)
+	);
+	
+end entity top_level;
+
+architecture rtl of top_level is
+
+	-- Constant and type declarations
+	constant c_500ms_count_max : integer := <500>;
+	-- Internal signal declarations
+	signal reset_n : std_logic;
+	signal counter_500ms : integer range 0 to c_500ms_count_max;
+	signal tick : std_logic;
+	signal led : std_logic;
+	
+begin
+
+	-- Assign internal signals from entity inputs
+	-- Active low reset reset from KEY0
+	reset_n <= key_n(0);
+	-- turn off unused LED outputs
+	ledr <= (others => '0'); -- USE ONE OF THESE FOR THE TOGGLE LED
+	p_tick : process(clock_50, reset_n)
+	begin
+		-- fill in tick process functionality here
+		counter_500ms + 1;
+		if counter_500ms = c_500ms_count_max then 
+			tick = '1';
+			counter_500ms <= '0';
+		end if; 
+		if reset_n = '0' then 
+			led(0) = '0';
+			counter_500ms <= '0' 
+		end if ;
+		end process p_tick;
+	
+	p_toggle : process(clock_50, reset_n)
+	begin
+	-- fill in toggle process functionality here
+	
+	end process p_tick;
+end architecture rtl;

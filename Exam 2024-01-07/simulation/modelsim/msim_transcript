@@ -1,0 +1,297 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do tenta2024_top_level_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/Exam 2024-01-07/pattern_detect.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pattern_detect
+# -- Compiling architecture rtl of pattern_detect
+# 
+vsim work.pattern_detect
+# vsim work.pattern_detect 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.pattern_detect(rtl)
+add wave -position end  sim:/pattern_detect/clk
+add wave -position end  sim:/pattern_detect/reset_n
+add wave -position end  sim:/pattern_detect/pattern_input
+add wave -position end  sim:/pattern_detect/pattern_detected
+add wave -position end  sim:/pattern_detect/pattern_counter
+do ../../pattern_test.txt
+# ** Fatal: (vsim-3734) Index value 8 is out of range 0 to 7.
+#    Time: 360001 ps  Iteration: 0  Process: /pattern_detect/p_main File: C:/Users/nourn/OneDrive/Skrivbord/VHDL/Exam 2024-01-07/pattern_detect.vhd
+# Fatal error in Process p_main at C:/Users/nourn/OneDrive/Skrivbord/VHDL/Exam 2024-01-07/pattern_detect.vhd line 25
+# 
+# HDL call sequence:
+# Stopped at C:/Users/nourn/OneDrive/Skrivbord/VHDL/Exam 2024-01-07/pattern_detect.vhd 25 Process p_main
+# 
+do tenta2024_top_level_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/Exam 2024-01-07/pattern_detect.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pattern_detect
+# -- Compiling architecture rtl of pattern_detect
+# 
+do ../../pattern_test.txt
+# Loading work.pattern_detect(rtl)
+do tenta2024_top_level_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/Exam 2024-01-07/pattern_detect.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pattern_detect
+# -- Compiling architecture rtl of pattern_detect
+# 
+do ../../pattern_test.txt
+# Loading work.pattern_detect(rtl)
+do tenta2024_top_level_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/Exam 2024-01-07/pattern_detect.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pattern_detect
+# -- Compiling architecture rtl of pattern_detect
+# 
+do ../../pattern_test.txt
+# Loading work.pattern_detect(rtl)
+do tenta2024_top_level_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/Exam 2024-01-07/pattern_detect.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pattern_detect
+# -- Compiling architecture rtl of pattern_detect
+# 
+do ../../pattern_test.txt
+# Loading work.pattern_detect(rtl)
+do ../../pattern_test.txt
+do ../../pattern_test.txt
+do tenta2024_top_level_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/Exam 2024-01-07/pattern_detect.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pattern_detect
+# -- Compiling architecture rtl of pattern_detect
+# 
+do ../../pattern_test.txt
+# Loading work.pattern_detect(rtl)
+do tenta2024_top_level_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/Exam 2024-01-07/pattern_detect.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pattern_detect
+# -- Compiling architecture rtl of pattern_detect
+# 
+do ../../pattern_test.txt
+# Loading work.pattern_detect(rtl)
+do tenta2024_top_level_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/Exam 2024-01-07/pattern_detect.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pattern_detect
+# -- Compiling architecture rtl of pattern_detect
+# 
+do ../../pattern_test.txt
+# Loading work.pattern_detect(rtl)
+do ../../pattern_test.txt
+do ../../pattern_test.txt
+do ../../pattern_test.txt
+do tenta2024_top_level_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/Exam 2024-01-07/pattern_detect.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pattern_detect
+# -- Compiling architecture rtl of pattern_detect
+# 
+do ../../pattern_test.txt
+# Loading work.pattern_detect(rtl)
+do tenta2024_top_level_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/Exam 2024-01-07/pattern_detect.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pattern_detect
+# -- Compiling architecture rtl of pattern_detect
+# 
+do ../../pattern_test.txt
+# Loading work.pattern_detect(rtl)
+do tenta2024_top_level_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/Exam 2024-01-07/pattern_detect.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pattern_detect
+# -- Compiling architecture rtl of pattern_detect
+# 
+do ../../pattern_test.txt
+# Loading work.pattern_detect(rtl)
+do tenta2024_top_level_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/Exam 2024-01-07/pattern_detect.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pattern_detect
+# -- Compiling architecture rtl of pattern_detect
+# 
+do ../../pattern_test.txt
+# Loading work.pattern_detect(rtl)
+do ../../pattern_test.txt
+do tenta2024_top_level_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/Exam 2024-01-07/pattern_detect.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pattern_detect
+# -- Compiling architecture rtl of pattern_detect
+# 
+do ../../pattern_test.txt
+# Loading work.pattern_detect(rtl)
+do tenta2024_top_level_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/Exam 2024-01-07/pattern_detect.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pattern_detect
+# -- Compiling architecture rtl of pattern_detect
+# 
+do ../../pattern_test.txt
+# Loading work.pattern_detect(rtl)
+do tenta2024_top_level_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/nourn/OneDrive/Skrivbord/VHDL/Exam 2024-01-07/pattern_detect.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pattern_detect
+# -- Compiling architecture rtl of pattern_detect
+# 
+do ../../pattern_test.txt
+# Loading work.pattern_detect(rtl)

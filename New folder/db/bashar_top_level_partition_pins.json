@@ -1,0 +1,137 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "packet_data_1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "packet_data_1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "packet_data_1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "packet_data_1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "packet_data_1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "packet_data_1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "packet_data_1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "packet_data_1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "packet_sop_1",
+					"strict" : false
+				},
+				{
+					"name" : "packet_eop_1",
+					"strict" : false
+				},
+				{
+					"name" : "packet_data_2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "packet_data_2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "packet_data_2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "packet_data_2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "packet_data_2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "packet_data_2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "packet_data_2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "packet_data_2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "packet_sop_2",
+					"strict" : false
+				},
+				{
+					"name" : "packet_eop_2",
+					"strict" : false
+				},
+				{
+					"name" : "packet_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "packet_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "packet_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "packet_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "packet_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "packet_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "packet_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "packet_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "packet_eop",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "packet_sop",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

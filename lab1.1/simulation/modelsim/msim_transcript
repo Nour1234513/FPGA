@@ -1,0 +1,53 @@
+# Reading pref.tcl
+# do withIF_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/nourn/Desktop/VHDL/lab1.1/withIF.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:32:40 on Jan 20,2024
+# vcom -reportprogress 300 -93 -work work C:/Users/nourn/Desktop/VHDL/lab1.1/withIF.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity withIF
+# -- Compiling architecture rtl of withIF
+# End time: 01:32:40 on Jan 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.withif
+# vsim work.withif 
+# Start time: 01:32:45 on Jan 20,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.withif(rtl)
+add wave -position end sim:/withif/*
+force sw(0) 1
+run 1 us
+force sw(7 downto 1) 1
+# Value length (1) does not equal array index length (7).
+# ** UI-Msg: (vsim-4011) Invalid force value: 1.
+# 
+force sw(7) 0
+run 1 s
+# Invalid time value: 1 s
+run 1 us
+force sw(6) 0
+force sw(5) 0
+force sw(4) 0
+force sw(3) 0
+force sw(2) 0
+force sw(1) 0
+run 1 us
+# End time: 01:34:29 on Jan 20,2024, Elapsed time: 0:01:44
+# Errors: 0, Warnings: 0

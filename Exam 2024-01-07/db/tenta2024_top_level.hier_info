@@ -1,0 +1,18 @@
+|pattern_detect
+clk => pattern_detected~reg0.CLK
+clk => send_pulse_detect.CLK
+clk => pattern_counter[0].CLK
+clk => pattern_counter[1].CLK
+clk => pattern_counter[2].CLK
+clk => pattern_counter[3].CLK
+reset_n => pattern_detected~reg0.ACLR
+reset_n => send_pulse_detect.ACLR
+reset_n => pattern_counter[0].ACLR
+reset_n => pattern_counter[1].ACLR
+reset_n => pattern_counter[2].ACLR
+reset_n => pattern_counter[3].ACLR
+pattern_input => p_main.IN1
+pattern_input => p_main.IN1
+pattern_detected <= pattern_detected~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
